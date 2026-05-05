@@ -61,7 +61,7 @@ function Hero({ onGetStarted }) {
       <motion.h1
         initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2, duration: 0.7 }}
         style={{
-          fontFamily: 'var(--font-display)', fontSize: 'clamp(42px, 7vw, 80px)',
+          fontFamily: 'var(--font-mono)', fontSize: 'clamp(42px, 7vw, 80px)',
           fontWeight: 800, lineHeight: 1.05, letterSpacing: '-0.04em',
           margin: '24px 0 20px', color: 'var(--text-primary)',
         }}
